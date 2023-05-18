@@ -1,10 +1,10 @@
-import './App.css';
-import Layout from './layout/layout';
+
+import Form from './slider/Form';
+import './slider/Form.css';
 function App() {
   return (
    <>
-   <Layout/>
-   
+   <Form />
    </>
   );
 }

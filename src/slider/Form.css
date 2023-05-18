@@ -1,0 +1,246 @@
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+  }
+  h1{
+    position: absolute;
+  width: 671px;
+  height: 373px;
+  top :30px;
+  left : 35px;
+  
+  font-family: serif;
+  font-weight: bold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 86px;
+  line-height: 113px;
+  
+  color: #ffffff;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .div1{
+    position: absolute;
+  width: 401px;
+  height: 650px;
+  left: 905px;
+  top: 5px;
+  
+  background: #FFFFFF;
+  box-shadow: 6px 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px 11px 0px 0px;
+  }
+  .p1{
+    position: absolute;
+  left: 35.91%;
+  right: 35.91%;
+  top: 3.85%;
+  bottom: 91.08%;
+  
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #FA7A69;
+  }
+  .p2{
+    position: absolute;
+  left: 28.43%;
+  right: 28.18%;
+  top: 11.23%;
+  bottom: 83.69%;
+  
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #2D2A2A;
+  }
+  .l1{
+    position: absolute;
+    left: 10.72%;
+    right: 74.31%;
+    top: 19.85%;
+    bottom: 77.08%;
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2D2A2A;
+  }
+  .l2{
+    position: absolute;
+  left: 10.47%;
+  right: 74.56%;
+  top: 30.92%;
+  bottom: 66%;
+  
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  
+  color: #2D2A2A;
+  }
+  .l3{
+    position: absolute;
+  left: 10.47%;
+  right: 67.33%;
+  top: 42%;
+  bottom: 54.92%;
+  
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  
+  color: #2D2A2A;
+  }
+  .in1{
+    box-sizing: border-box;
+  
+  position: absolute;
+  left: 8.98%;
+  right: 8.73%;
+  top: 23.54%;
+  bottom: 69.69%;
+  
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.45);
+  border-radius: 12px;
+  }
+  .in2{
+    box-sizing: border-box;
+  
+  position: absolute;
+  left: 8.98%;
+  right: 8.73%;
+  top: 34.62%;
+  bottom: 58.62%;
+  
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.45);
+  border-radius: 12px;
+  }
+  .in3{
+    box-sizing: border-box;
+  
+  position: absolute;
+  left: 8.98%;
+  right: 8.73%;
+  top: 45.69%;
+  bottom: 47.54%;
+  
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.45);
+  border-radius: 12px;
+  }
+  .a1{
+    position: absolute;
+  left: 8.98%;
+  right: 27.68%;
+  top: 54%;
+  bottom: 41.69%;
+  
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FA8A7B;
+  }
+  .a2{
+    position: absolute;
+  left: 61.6%;
+  right: 28.18%;
+  top: 54.31%;
+  bottom: 42.92%;
+  
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+  
+  color: #98AFFF;
+  }
+  .in4{
+    position: absolute;
+  left: 26.68%;
+  right: 26.68%;
+  top: 59.85%;
+  bottom: 34.31%;
+  background: #FFB0A6;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  }
+  .in4:hover{
+    background-color:#f63773;
+  }
+  .l4{
+    position: absolute;
+  left: 46.63%;
+  right: 46.63%;
+  top: 66.77%;
+  bottom: 30.15%;
+  
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2D2A2A;
+  }
+  .l4{
+    position: absolute;
+  left: 46.63%;
+  right: 46.63%;
+  top: 66.77%;
+  bottom: 30.15%;
+  
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  
+  color: #2D2A2A;
+  }
+  .in5{
+    position: absolute;
+  left: 18.7%;
+  right: 18.2%;
+  top: 70.92%;
+  bottom: 23.23%;
+  background: #4F99DD;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  }
+  .in5:hover{
+    background-color: #0267c5;
+  }
+  .in6{
+    position: absolute;
+  left: 18.7%;
+  right: 18.2%;
+  top: 79.54%;
+  bottom: 14.62%;  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  }
+  .in6:hover{
+    background-color: rgb(221, 204, 204);
+  }
