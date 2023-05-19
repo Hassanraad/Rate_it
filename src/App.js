@@ -1,5 +1,5 @@
 
-import Form from './slider/Form';
+import {Form} from './slider/Form';
 import './slider/Form.css';
 function App() {
   return (
