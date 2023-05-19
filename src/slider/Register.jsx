@@ -43,7 +43,7 @@ export const Form = (props) => {
                 <button type="submit" className="in4"  > Register  </button>
                 <label className="l4">OR</label>
                     <div className="div3">
-                        <input type="submit" onClick={() => props.onFormSwitch('login')} img={facebook} value="Login here " className="in5" />
+                        <input type="submit" img={facebook} value="Continue with facebook " className="in5" />
                         <input type="submit" value="Continue with google" className="in6" />
                     </div>
                 <div>
