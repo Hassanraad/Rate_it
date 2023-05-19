@@ -7,7 +7,7 @@ export default function Form1(){
     return(
         <div >
         <img src={background} className='background'/>
-        <h1>SignUp to make<br />
+        <h1 className='title1'>SignUp to make<br />
              your meal <br />
              better</h1>
         <div className="div1">
