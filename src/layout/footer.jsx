@@ -7,7 +7,8 @@ import Twitter from "../assets/imgs/twitter.png"
 export default function Footer() {
     return(<>
     <div className="footer">
-       
+    <h1 className="logo1">Rate it</h1>
+
         <footer>
 
 <div className="s01">
