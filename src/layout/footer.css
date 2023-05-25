@@ -11,7 +11,7 @@
     .logo1{
         display: none;
     }
-    h1{
+    .logo{
     font-family: 'Merriweather', serif;
     font-size: 24px;
     color: #FFACA0;
@@ -106,7 +106,7 @@
         font-family: 'Roboto', sans-serif;
     }
     @media only screen and (max-width:400px){
-        h1{
+        .logo{
             display: none;
         }
         .footer{
@@ -177,6 +177,9 @@
             text-align: center;
             width: 100%;
             margin-top: 5px;
+            color: #FFACA0;
+            font-weight: bold;
+            font-family: 'Merriweather', serif;
         }
         a{
             font-size: 14px;
