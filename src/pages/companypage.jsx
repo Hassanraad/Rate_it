@@ -4,10 +4,10 @@ export default function Company(){
 
     return (
         <>
-        <div>
+        <div className='layout'>
             <div className='ad00'>
             <div className='ad01'>
-                <div>
+                <div className='ad02'>
                     <p>Have a 20% discount for the first order from pizza Hut</p>
                     <a href="#">Order now</a>
                 </div>
@@ -26,7 +26,7 @@ export default function Company(){
                 </span>
                 <span><i></i></span>
                 <div>
-                    <p>jkwflsajlfd</p>
+                    <p>comment</p>
                 </div>
                 </div>
             </div>
