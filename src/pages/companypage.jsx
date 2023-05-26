@@ -8,8 +8,8 @@ export default function Company(){
             <div className='ad00'>
             <div className='ad01'>
                 <div className='ad02'>
-                    <p>Have a 20% discount for the first order from pizza Hut</p>
-                    <a href="#">Order now</a>
+                    <p className='par00'>Have a 20% discount for the first order from pizza Hut</p>
+                    <a href="#" className='link'> <p className='par01'>Order now</p></a>
                 </div>
             </div>
             </div>
