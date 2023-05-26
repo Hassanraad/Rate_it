@@ -1,4 +1,5 @@
 import './companypage.css';
+import list from '../assets/imgs/feedback.png';
 export default function Company(){
 
 
@@ -13,11 +14,13 @@ export default function Company(){
                 </div>
             </div>
             </div>
-            <div>
-                <h1>Comments</h1>
-                <span>
-                    <a href=""><img src="" alt="" /></a>
+            <div className='com00'>
+                <h1 className='h00'>Comments</h1>
+                <span className='sp00'>
+                    <a href="" ><img src="" alt=""  /></a>
                     <input type="text" placeholder='add comment'  />
+                    <span className='sp01'> <img src={list} alt=""width={38} height={26} /></span>
+                    <button>send</button>
                 </span>
                 <div>
                 <span>
