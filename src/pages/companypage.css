@@ -67,6 +67,7 @@
     border-bottom: 0.5px black solid;
     padding-bottom: 20px;
     width: 83%;
+    justify-content: center;
 }
 .sp01{
     display: flex;
@@ -135,7 +136,7 @@ font-family: 'Roboto', sans-serif;
 color: #928484;
 }
 .com01{
-    width: 75%;
+    width: 90%;
     border-bottom: 0.5px black solid;
 }
 .par03{
