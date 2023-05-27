@@ -1,5 +1,6 @@
 import './companypage.css';
-import list from '../assets/imgs/feedback.png';
+import list from '../assets/imgs/clipboard.png';
+import user from '../assets/imgs/profile.png'
 export default function Company(){
 
 
@@ -17,21 +18,23 @@ export default function Company(){
             <div className='com00'>
                 <h1 className='h00'>Comments</h1>
                 <span className='sp00'>
-                    <a href="" ><img src="" alt=""  /></a>
-                    <input type="text" placeholder='add comment'  />
-                    <span className='sp01'> <img src={list} alt=""width={38} height={26} /></span>
-                    <button>send</button>
+                    <a href="#"  className='link01'><img src={user} alt=""  width={35} height={35} /></a>
+                    <input type="text" placeholder='add comment'  className='inp00' />
+                    <span className='sp01'> <img src={list} alt=""width={25} height={30} /></span>
+                    <button className='but00'>send</button>
                 </span>
-                <div>
+                <ul>
+                    <li>
                 <span>
-                <a href=""><img src="" alt="" /></a>
+                <a href="#"><img src={user} alt="" width={35} height={35} /></a>
                 <h2>name</h2>
                 </span>
                 <span><i></i></span>
                 <div>
                     <p>comment</p>
                 </div>
-                </div>
+                </li>
+                </ul>
             </div>
         </div>
         
