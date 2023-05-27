@@ -23,15 +23,15 @@ export default function Company(){
                     <span className='sp01'> <img src={list} alt=""width={25} height={30} /></span>
                     <button className='but00'>send</button>
                 </span>
-                <ul>
-                    <li>
-                <span>
+                <ul className='lis00'>
+                    <li className='chlis00'>
+                <span className='sp02'>
                 <a href="#"><img src={user} alt="" width={35} height={35} /></a>
-                <h2>name</h2>
+                <h2 className='h01'>name</h2>
                 </span>
                 <span><i></i></span>
-                <div>
-                    <p>comment</p>
+                <div className='com01'>
+                    <p className='par03'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci veritatis molestiae esse amet rerum dolorem fugiat corporis asperiores provident sit culpa error nesciunt quo non, reiciendis animi. Iusto, alias minus!</p>
                 </div>
                 </li>
                 </ul>

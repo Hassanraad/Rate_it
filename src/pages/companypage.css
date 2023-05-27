@@ -64,6 +64,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-bottom: 0.5px black solid;
+    padding-bottom: 20px;
+    width: 83%;
 }
 .sp01{
     display: flex;
@@ -107,4 +110,37 @@
 }
 .link01{
     margin-right: 10px;
+}
+.lis00{
+    display: flex;
+    justify-content: start;
+    width: 83%;
+    margin-top: 11px;
+    list-style-type: none;
+}
+.chlis00{
+    width: 100%;
+}
+.sp02{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    
+}
+.h01{
+margin-left: 10px;
+font-size: 20px;
+font-family: 'Roboto', sans-serif;
+color: #928484;
+}
+.com01{
+    width: 75%;
+    border-bottom: 0.5px black solid;
+}
+.par03{
+    color: #504C4C;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
 }
