@@ -1,8 +1,17 @@
 import './companypage.css';
-import list from '../assets/imgs/clipboard.png';
+import React , { useState,useEffect} from "react";
 import user from '../assets/imgs/profile.png'
+import Flotlist from '../components/rating';
 export default function Company(){
+    const [newitem,setitem]=useState();
+    const [newcom,setcom]=useState([]);
 
+    function Add(){
+     
+             
+            setcom(newitem);
+        setitem("");
+    }
 
     return (
         <>
@@ -19,9 +28,12 @@ export default function Company(){
                 <h1 className='h00'>Comments</h1>
                 <span className='sp00'>
                     <a href="#"  className='link01'><img src={user} alt=""  width={35} height={35} /></a>
-                    <input type="text" placeholder='add comment'  className='inp00' />
-                    <span className='sp01'> <img src={list} alt=""width={25} height={30} /></span>
-                    <button className='but00'>send</button>
+                    <input type="text" placeholder='add comment'  className='inp00'  value={newitem} onChange={(e)=>setitem(e.target.value)} />
+                    <span className='sp01'>
+                    <Flotlist/>
+                    </span>
+                    
+                    <button className='but00' onClick={()=>Add()}>send</button>
                 </span>
                 <ul className='lis00'>
                     <li className='chlis00'>
@@ -31,7 +43,7 @@ export default function Company(){
                 </span>
                 <span><i></i></span>
                 <div className='com01'>
-                    <p className='par03'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci veritatis molestiae esse amet rerum dolorem fugiat corporis asperiores provident sit culpa error nesciunt quo non, reiciendis animi. Iusto, alias minus!</p>
+                    <p className='par03'> {newcom} </p>
                 </div>
                 </li>
                 </ul>
