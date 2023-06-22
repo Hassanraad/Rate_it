@@ -10746,6 +10746,8 @@ __metadata:
     "@testing-library/user-event": ^13.5.0
     react: ^18.2.0
     react-dom: ^18.2.0
+    react-icons: ^4.10.1
+    react-rating-stars-component: ^2.2.0
     react-scripts: 5.0.1
     web-vitals: ^2.1.4
   languageName: unknown
@@ -10828,6 +10830,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-icons@npm:^4.10.1":
+  version: 4.10.1
+  resolution: "react-icons@npm:4.10.1"
+  peerDependencies:
+    react: "*"
+  checksum: b6c8d4fe482b112e1041515d93ef7670a0af128855c926052a076b64d0b991cdd4391394b26467100f8da3859db1ebd8f9c6b7614fa5969fde83de45c71031a3
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^16.13.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
@@ -10846,6 +10857,13 @@ __metadata:
   version: 18.2.0
   resolution: "react-is@npm:18.2.0"
   checksum: e72d0ba81b5922759e4aff17e0252bd29988f9642ed817f56b25a3e217e13eea8a7f2322af99a06edb779da12d5d636e9fda473d620df9a3da0df2a74141d53e
+  languageName: node
+  linkType: hard
+
+"react-rating-stars-component@npm:^2.2.0":
+  version: 2.2.3
+  resolution: "react-rating-stars-component@npm:2.2.3"
+  checksum: 73be7b080aa02372ab06642d50f29cf08eea24276c01b68905ef10e0293835fd986ebfa5e0f4b650e504e8215b16aacdf3f858fead2df2bdc77a5f7d8dbad4ee
   languageName: node
   linkType: hard
 
