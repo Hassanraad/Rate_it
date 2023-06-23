@@ -1,0 +1,77 @@
+body{
+    background-color: #EFD67D;
+}
+.para{
+    position: absolute;
+    
+left: 27.83%;
+right: 32.35%;
+top: 12.71%;
+bottom: 63.43%;
+width: 452px;
+font-family: 'Roboto Slab';
+font-weight: bold;
+font-style: normal;
+font-size: 64px;
+line-height: 84px;
+text-align: center;
+
+color: #504C4C;
+}
+.container {
+    display: flex;
+  }
+  
+  img {
+    width: 90px;
+    height: 90px;
+    transition: transform 0.5s ease;
+  }
+  
+  .transformed {
+    transform: rotate(360deg);
+  }
+
+  /*.img1{position: absolute;
+    left: 72.71%;
+    right: 10.75%;
+    top: 52.71%;
+    bottom: 16.59%;}*/
+.img1,.img2,.img3,.img4{
+    box-sizing: border-box;
+    /*background: url(6615039.png);*/
+
+background: #FA8A7B;
+border: 1px solid rgba(0, 0, 0, 0.3);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+}
+.img1{
+    position: absolute;
+    left: 72.71%;
+    right: 10.75%;
+    top: 52.71%;
+    bottom: 16.59%;
+    
+}
+.img2{
+    position: absolute;
+left: 52%;
+right: 31.46%;
+top: 52.71%;
+bottom: 16.59%;
+}
+.img3{
+    position: absolute;
+left: 31.14%;
+right: 52.32%;
+top: 52.71%;
+bottom: 16.59%;
+}
+.img4{
+    position: absolute;
+left: 10.28%;
+right: 73.18%;
+top: 52.71%;
+bottom: 16.59%;
+}
