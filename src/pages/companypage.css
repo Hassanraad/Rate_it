@@ -209,3 +209,9 @@ input[type="radio"]{
     cursor: pointer;
     transition: color 0.2s;
 }
+.ratelay{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -40,16 +40,17 @@ export default function Company(){
                 </span>
                 <ul className='lis00'>
                     <li className='chlis00'>
+                        <div className='ratelay'>
                 <span className='sp02'>
                 <a href="#"><img src={user} alt="" width={35} height={35} /></a>
                 <h2 className='h01'>name</h2>
-                </span>
-                <span><i> {[...Array(5)].map((star,i)=>{
+                </span> <span><i> {[...Array(5)].map((star,i)=>{
                     const rating = i+1;
                     return(   
                      <label  className='star'> <input type= "radio" name="rating" value={rating}/><FaStar size={18}color={rating<= newrate?"#ffc107":"#e4e5e9"} /> </label>
                     )
                })}</i></span>
+               </div>
                 <div className='com01'>
                     <p className='par03'> {newcom}  </p>
                 </div>
