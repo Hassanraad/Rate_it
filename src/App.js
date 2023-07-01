@@ -7,14 +7,22 @@ import  Login  from "./components/register/Login";
 import Register  from "./components/register/Register";
 import "./components/register/Form1.css"
 
+import Navbar from'./components/explore/Navbar';
+import './components/explore/Navcss.css'
+import Sec from'./components/explore/secondpage/Sec';
+import './components/explore/secondpage/Sec.css';
+import First from './components/explore/firstpage/First';
+import './components/explore/firstpage/First.css';
+
 function App() {
   
   return (
    
     <div className="App">
+      <Navbar />
+      <First />
+      <Sec />
       
-      <Animation />
-      <Register />
       
     </div>
 
