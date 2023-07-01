@@ -9,13 +9,10 @@ import "./components/register/Form1.css"
 
 function App() {
   
-  
-
   return (
    
     <div className="App">
       
-
       <Animation />
       <Register />
       
