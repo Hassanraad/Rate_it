@@ -8,8 +8,8 @@ import burger from './images/burger.png';
 function MyComponent(props) {
     return (
     
-      <div>
-        <img src={props.ww} alt="My Image" />
+      <div className='Animation'>
+        
       </div>
     );
   }

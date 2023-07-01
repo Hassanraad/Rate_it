@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import background from './pizza.jpg';
 
 
-export const Register = (props) => {
+export default function Register () {
     const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
     const [name, setName] = useState('');
@@ -11,10 +11,12 @@ export const Register = (props) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(email);
+        console.log(pass);
+        console.log(name);
     }
 
      return(
-        <div >
+        <div className="div11">
         <img src={background} className='background'/>
         <h1>SignUp to make<br />
              your meal <br />
@@ -37,12 +39,12 @@ export const Register = (props) => {
                 
                 <div className="div2">
                     <label className="a1">Do you have an account?</label>
-                    <a onClick={() => props.onFormSwitch('login')} className="a2">Login</a>
+                    <a className="a2">Login</a>
                 </div>
                 <button type="submit" className="in4"  > Register  </button>
                 <label className="l4">OR</label>
                     <div className="div3">
-                        <input type="submit" onClick={() => props.onFormSwitch('login')} value="Login here " className="in5" />
+                        <input type="submit" value="Login here " className="in5" />
                         <input type="submit" value="Continue with google" className="in6" />
                     </div>
                 <div>
