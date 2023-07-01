@@ -39,7 +39,7 @@ export default function Company(){
             <div className='com00'>
                 <h1 className='h00'>Comments</h1>
                 <span className='sp00'>
-                    <a href="#"  className='link01'><img src={user} alt=""  width={35} height={35} /></a>
+                    <a href="#"  className='link01'><img src={user} alt="" className='img00'  width={35} height={35} /></a>
                     <input type="text" placeholder='add comment'  className='inp00'  value={newitem} onChange={(e)=>setitem(e.target.value)} />
                     <span className='sp01'>
                         {render}
@@ -53,7 +53,7 @@ export default function Company(){
                     <li className='chlis00'>
                         <div className='ratelay'>
                 <span className='sp02'>
-                <a href="#"><img src={user} alt="" width={35} height={35} /></a>
+                <a href="#"><img src={user} alt="" className='img01' width={35} height={35} /></a>
                 <h2 className='h01'>name</h2>
                 </span> <span><i> {newstar}</i></span>
                </div>

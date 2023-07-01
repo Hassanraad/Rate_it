@@ -17,7 +17,7 @@ export default function Flotlist(){
     <img src={list} alt=""width={25} height={30} onClick={()=>Active()}    />
     <div className={`flotlist${open}`}>
          <ul className={`anlist`}>
-            <li><span> <p>Taste:</p>
+            <li><span> <p className='p04'>Taste:</p>
                 <span>
                {[...Array(5)].map((star,i)=>{
                     const rating = i+1;
@@ -27,7 +27,7 @@ export default function Flotlist(){
                })}
                </span>
             </span></li>
-            <li><span> <p>Cleanliness:</p>            <span>
+            <li><span> <p className='p04'>Cleanliness:</p>            <span>
             {[...Array(5)].map((star,i)=>{
 
                     const rating1 = i+1;
@@ -37,7 +37,7 @@ export default function Flotlist(){
                })}
                </span>
            </span></li>
-            <li><span> <p>Price:</p>         <span>
+            <li><span> <p className='p04'>Price:</p>         <span>
             {[...Array(5)].map((star,i)=>{
                     const rating2 = i+1;
                     return(
@@ -46,7 +46,7 @@ export default function Flotlist(){
                })}
                </span>
            </span></li>
-            <li><span> <p>Service:</p>           <span>
+            <li><span> <p className='p04'>Service:</p>           <span>
             {[...Array(5)].map((star,i)=>{
                     const rating3 = i+1;
                     return(
@@ -55,12 +55,12 @@ export default function Flotlist(){
                })}
                </span>
            </span></li>
-            <li><span> <p>Time:</p>  
+            <li><span> <p className='p04'>Time:</p>  
             <span>
             {[...Array(5)].map((star,i)=>{
                     const rating4 = i+1;
                     return(
-                     <label  className='star'> <input type= "radio" name="rating" value={rating4} onChange={()=> setcureent4(rating4)}/><FaStar size={18} color={rating4<= current4?"#ffc107":"#e4e5e9"}/> </label>
+                     <label  className='star'> <input type= "radio" name="rating" value={rating4} onClick={()=> setcureent4(rating4)}/><FaStar size={18} color={rating4<= current4?"#ffc107":"#e4e5e9"}/> </label>
                     )
                })}
                </span>
