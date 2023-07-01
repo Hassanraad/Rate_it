@@ -79,7 +79,7 @@ cursor: pointer;
 }
 .inp00{
     background-color: #FCFCFC;
-    width: 300px;
+    width: 340px;
     height: 34px;
     border-radius: 15px;
     border: 0.2px solid black;
@@ -89,7 +89,6 @@ cursor: pointer;
 }
 .inp00:focus{
     transition: 0.5s ;
-    width: 344px;
     border-radius: 10px;
 }
 .but00{
