@@ -14,6 +14,8 @@ import './components/explore/secondpage/Sec.css';
 import First from './components/explore/firstpage/First';
 import './components/explore/firstpage/First.css';
 
+import Footer from './layout/footer';
+import './layout/footer.css';
 function App() {
   
   return (
@@ -24,6 +26,7 @@ function App() {
       <Sec />
       <Animation />
       <Register />
+      <Footer />
     </div>
 
   );

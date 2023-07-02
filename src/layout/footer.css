@@ -5,8 +5,13 @@ flex-direction: column;
 flex-wrap: nowrap;
 justify-content: start;
 align-items: center;
-width: 100%;
+
 height: 241px;
+
+position: absolute;
+width: 1352px;
+left: 0px;
+top: 2808px;
 }
 .logo1{
 font-family: 'Merriweather', serif;

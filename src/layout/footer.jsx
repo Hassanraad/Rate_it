@@ -11,7 +11,7 @@ export default function Footer() {
     <p>Makers masarat Graduation project</p>
 </div>
 <div className="s02" >
-<h1 className="logo1">rrrrRate it</h1>
+<h1 className="logo1">Rate it</h1>
     <span><img src="" alt="" /><a href="#">Facebook</a></span>
     <span><img src="" alt="" /><a href="#">Instgram</a></span>
     <span><img src="" alt="" /><a href="#">Twitter</a></span>
