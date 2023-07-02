@@ -1,6 +1,11 @@
-
 .Animation{
     background-color: #EFD67D;
+    position: absolute;
+    width: 1352px;
+    height: 700px;
+    left: 0px;
+    top: 1408px;
+
 }
 .para{
     position: absolute;
@@ -23,7 +28,7 @@ color: #504C4C;
     display: flex;
   }
   
-  img {
+  .img1 , .img2 , .img3 , .img4 {
     width: 90px;
     height: 90px;
     transition: transform 0.5s ease;

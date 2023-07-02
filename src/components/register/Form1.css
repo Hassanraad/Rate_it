@@ -9,9 +9,9 @@
 width: 1352px;
 height: 700px;
 left: 0px;
-top: 708px;
+top: 2108px;
   }
-  h1{
+  .h1{
     position: absolute;
   width: 671px;
   height: 373px;
@@ -40,7 +40,7 @@ top: 708px;
   box-shadow: 6px 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 11px 11px 0px 0px;
   }
-  .p1{
+  .pa1{
     position: absolute;
   left: 35.91%;
   right: 35.91%;
@@ -55,7 +55,7 @@ top: 708px;
   text-align: center;
   color: #FA7A69;
   }
-  .p2{
+  .pa2{
     position: absolute;
   left: 28.43%;
   right: 28.18%;

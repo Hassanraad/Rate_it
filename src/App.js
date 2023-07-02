@@ -22,8 +22,8 @@ function App() {
       <Navbar />
       <First />
       <Sec />
-      
-      
+      <Animation />
+      <Register />
     </div>
 
   );

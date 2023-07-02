@@ -8,7 +8,7 @@ import burger from './images/burger.png';
 function MyComponent(props) {
     return (
     
-      <div className='Animation'>
+      <div className='Ani'>
         
       </div>
     );

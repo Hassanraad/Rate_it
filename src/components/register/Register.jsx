@@ -18,12 +18,12 @@ export default function Register () {
      return(
         <div className="div11">
         <img src={background} className='background'/>
-        <h1>SignUp to make<br />
+        <h1 className="h1">SignUp to make<br />
              your meal <br />
              better</h1>
         <div className="div1">
-            <p className="p1">Rate it</p>
-            <p className="p2">Welcome</p>
+            <p className="pa1">Rate it</p>
+            <p className="pa2">Welcome</p>
             <form className="register-form" onSubmit={handleSubmit}>
                 <label className="l1">Name :</label> 
                 
