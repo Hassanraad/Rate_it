@@ -79,7 +79,7 @@ cursor: pointer;
 }
 .inp00{
     background-color: #FCFCFC;
-    width: 300px;
+    width: 340px;
     height: 34px;
     border-radius: 15px;
     border: 0.2px solid black;
@@ -89,18 +89,16 @@ cursor: pointer;
 }
 .inp00:focus{
     transition: 0.5s ;
-    width: 344px;
     border-radius: 10px;
 }
 .but00{
-    width: 94px;
-    height: 34px;
+    padding: 10px 30px;
     border-radius:25px ;
     border: unset;
     background-color: #FC6B58;
-    box-shadow: 2px 4px 1px #d3a4a4;
+    box-shadow: 0px 1px 4px 0px #FC6B58;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     font-weight:400;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
@@ -108,7 +106,7 @@ cursor: pointer;
 .but00:hover{
     transition: 0.5s;
     border-radius: 14px;
-    background-color: #f3543f;
+    background-color: #f56653;
 }
 .link01{
     margin-right: 10px;
@@ -209,3 +207,105 @@ input[type="radio"]{
     cursor: pointer;
     transition: color 0.2s;
 }
+.ratelay{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.p04{
+color: #504C4C ;
+font-size: 16px;
+font-family: 'Roboto', sans-serif;
+font-weight:bold ;
+}
+@media only screen and (max-width:1000px){
+.layout{
+    flex-direction: column;
+    
+}
+.ad00{
+    width: 100%;
+    border-bottom: 0.5px solid black ;
+    padding: 15px 0px;
+}
+.ad01{
+    height: 180px;
+    width: 90%;
+    background-size:100%;
+    border-radius: 10px
+}
+.ad02{
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.but00{
+    border-radius: 15px;
+    padding: 8px 20px;
+}
+.par00{
+margin-top: 30px;
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+    width: 246px;
+}
+.par01{
+    width: 100px;
+    font-size: 16px;
+    font-weight:  bold;
+    color: white;
+    padding:10px 5px  ;
+    background-color: #FC6B58;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 30px;
+
+}
+.com00{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.inp00{
+
+    width: 300px;
+    height: 28px;
+    border-radius: 12px;
+    border: 0.2px solid black;
+    outline: none;
+    font-size: 12px;
+
+}
+.inp00:focus{
+    border-radius: 8px
+}
+.h00{
+    font-size: 20px;
+}
+.h01{
+    font-size: 16px;
+}
+.img00{
+    height: 30px;
+    width:30px ;
+}
+.img01{
+    height: 30px;
+    width:30px ;
+}
+.par03{
+    font-size: 14px;
+}
+.flotlisttrue{
+    top: 54%;
+    width: 50%;
+}
+.p04{
+    font-size: 14px;
+}
+.but00:hover{
+    border-radius: 10px;
+}
+}
+
