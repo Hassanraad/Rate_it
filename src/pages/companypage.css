@@ -14,7 +14,6 @@
     width: 75%;
     background-image: url(../assets/ads/791e1520-bf22-11eb-bffd-41da46d2d1cb.jpg);
     height: 593px;
-    background-size:100%;
 }
 .ad02{
     width: 100%;
@@ -93,14 +92,13 @@ cursor: pointer;
     border-radius: 10px;
 }
 .but00{
-    width: 94px;
-    height: 34px;
+    padding: 10px 30px;
     border-radius:25px ;
     border: unset;
     background-color: #FC6B58;
-    box-shadow: 2px 4px 1px #d3a4a4;
+    box-shadow: 0px 1px 4px 0px #FC6B58;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     font-weight:400;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
@@ -108,7 +106,7 @@ cursor: pointer;
 .but00:hover{
     transition: 0.5s;
     border-radius: 14px;
-    background-color: #f3543f;
+    background-color: #f56653;
 }
 .link01{
     margin-right: 10px;
@@ -221,7 +219,7 @@ font-size: 16px;
 font-family: 'Roboto', sans-serif;
 font-weight:bold ;
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:1000px){
 .layout{
     flex-direction: column;
     
@@ -240,6 +238,10 @@ font-weight:bold ;
 .ad02{
     border-radius: 10px;
     justify-content: space-between;
+}
+.but00{
+    border-radius: 15px;
+    padding: 8px 20px;
 }
 .par00{
 margin-top: 30px;
@@ -301,6 +303,9 @@ margin-top: 30px;
 }
 .p04{
     font-size: 14px;
+}
+.but00:hover{
+    border-radius: 10px;
 }
 }
 
