@@ -19,15 +19,9 @@ function App() {
   
   return (
    
-    <div className="App">
-      <Navbar />
-      <First />
-      <Sec />
-      <Animation />
-      <Register />
-      
-    </div>
+<>
 
+</>
   );
 }
 
