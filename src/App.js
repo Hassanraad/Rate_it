@@ -5,8 +5,7 @@ import Company from './pages/companypage';
 function App() {
   return (
    <>
-    <Company/>
-    <Layout />
+
    </>
   );
 }
