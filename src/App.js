@@ -1,5 +1,7 @@
-import './App.css';
+import Layout from './layout/layout';
 import Animation from './components/Animation';
+import Company from './pages/companypage.jsx';
+
 import './components/Animation.css';
 import React, { useState } from "react";
 
@@ -13,15 +15,12 @@ import Sec from'./components/explore/secondpage/Sec';
 import './components/explore/secondpage/Sec.css';
 import First from './components/explore/firstpage/First';
 import './components/explore/firstpage/First.css';
-
-
 function App() {
   
   return (
+   <>
    
-<>
-
-</>
+   </>
   );
 }
 
