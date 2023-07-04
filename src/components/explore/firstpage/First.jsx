@@ -1,5 +1,5 @@
 import img from'./img1.png';
-export default function (){
+export default function First(){
     return (
         <div className="dd">
         <p className="pp2">Rate it & make 

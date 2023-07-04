@@ -1,26 +1,25 @@
 import Layout from './layout/layout';
-import Animation from './components/Animation';
 import Company from './pages/companypage.jsx';
-
+import React, { Suspense, lazy } from 'react';
+import { Route, Routes,Router } from 'react-router-dom';
 import './components/Animation.css';
-import React, { useState } from "react";
-
+import Slider from './components/slider'
 import  Login  from "./components/register/Login";
-import Register  from "./components/register/Register";
 import "./components/register/Form1.css"
-
-import Navbar from'./components/explore/Navbar';
 import './components/explore/Navcss.css'
-import Sec from'./components/explore/secondpage/Sec';
 import './components/explore/secondpage/Sec.css';
-import First from './components/explore/firstpage/First';
 import './components/explore/firstpage/First.css';
 function App() {
   
   return (
-   <>
-   
-   </>
+   <div>
+        <Routes>
+                <Route element={<Layout />}>
+                <Route index element={<Slider />} />
+                <Route path='/Companypage' element={<Company />} />
+              </Route>
+        </Routes>
+   </div>
   );
 }
 

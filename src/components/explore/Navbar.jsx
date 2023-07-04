@@ -11,14 +11,7 @@ export default function Navbar(){
             <button className="btn1">Sign in</button>
             <button className="btn2">Sign up</button>
         </div>
-        <p className="p2">Rate it & make 
-        it better </p>
-        <p className="p3">Here you can rate your meal & get a better experiment next time</p>
-        <button className="btn3">Explore</button>
-        <button className="btn4">Read more</button>
-        
-        <img src={img} className='img123'></img>
-        </div>
+       </div>
 
     );
 
