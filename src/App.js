@@ -1,6 +1,4 @@
-import './app.css';
 import Animation from './components/Animation';
-import Company from './pages/companypage.jsx';
 
 import './components/Animation.css';
 import React, { useState } from "react";
@@ -17,7 +15,6 @@ import First from './components/explore/firstpage/First';
 import './components/explore/firstpage/First.css';
 
 
-import'./app.css';
 import Layout from './layout/footer';
 import Company from './pages/companypage';
 
