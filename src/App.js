@@ -1,5 +1,7 @@
 import './app.css';
 import Animation from './components/Animation';
+import Company from './pages/companypage.jsx';
+
 import './components/Animation.css';
 import React, { useState } from "react";
 
@@ -29,11 +31,9 @@ function App() {
       <Sec />
       <Animation />
       <Register />
+      
     </div>
-
-   
   );
 }
-
 
 export default App;
