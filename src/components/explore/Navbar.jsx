@@ -3,7 +3,7 @@ export default function Navbar(){
     return (
         <div>
         <div className="nav">
-            <p className="para123">Rate it</p>
+            <p className="parag123">Rate it</p>
             <a href="" className="home">Home</a>
             <a href="" className="service">Service</a>
             <a href="" className="about">About</a>

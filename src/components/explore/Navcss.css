@@ -6,11 +6,11 @@
     top: 0px;
     background: #FCFCFC;
 }
-.para123{
+.parag123{
     position: absolute;
     left: 3.4%;
     right: 88.24%;
-    top: 36.84%;
+    top: 0%;
     bottom: 5.26%;
     font-family: 'Merriweather';
     font-style: normal;
@@ -141,7 +141,7 @@ line-height: 20px;
 text-align: center;
 color: #504C4C;
 }
-.img123{
+.imag123{
     position: absolute;
 width: 754px;
 height: 533px;
