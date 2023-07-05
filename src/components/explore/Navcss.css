@@ -56,10 +56,11 @@ right: 55.47%;
     bottom: 5.26%;
     font-family: 'Merriweather';
 font-style: normal;
-font-weight: 700;
+font-weight: 700px;
 font-size: 16px;
 line-height: 20px;
-border : 0px;
+border : 1px solid #000000;
+border-radius: 6px;
 text-align: center;
 color: #504C4C;
 }
@@ -71,13 +72,19 @@ left: 1228px;
 top: 19px;
 font-family: 'Merriweather';
 font-style: normal;
-font-weight: 700;
+font-weight: 700px;
 font-size: 16px;
 line-height: 20px;
 border: 1px solid #000000;
 border-radius: 6px;
 text-align: center;
 color: #504C4C;
+}
+.btn1:hover{
+    background-color: #c5bfbf;
+}
+.btn2:hover{
+    background-color: #b9b4b4;
 }
 .p2{
     position: absolute;
