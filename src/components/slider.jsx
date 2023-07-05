@@ -10,7 +10,6 @@ return(
     <div>
     <First/>
     <Sec/>
-    <Animation/>
     <Register/>
     </div>
 </>
