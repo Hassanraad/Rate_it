@@ -24,8 +24,10 @@ function App() {
     <div className="App">
       <Navbar/>
       <First />
-     <Sec/>
+     <Sec/> 
+       <Register/>
       <Layout/>
+   
    </div>
   );
 }
