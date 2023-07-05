@@ -1,7 +1,7 @@
 import Animation from './components/Animation';
 import First from './components/explore/firstpage/First';
 import Sec from './components/explore/secondpage/Sec';
-import Navbar from './components/explore/Navbar';
+import Navbar from './layout/Navbar';
 import Register from './components/register/Register';
 import React, { Suspense, lazy } from 'react';
 import { Route, Routes,Router } from 'react-router-dom';
@@ -23,19 +23,9 @@ function App() {
 
     <div className="App">
       <Navbar />
-      <First />
-      <Sec />
-      <Animation />
-      <Register />
       
     
 
-        <Routes>
-                <Route element={<Layout />}>
-                <Route index element={<Slider />} />
-                <Route path='/Companypage' element={<Company />} />
-              </Route>
-        </Routes>
    </div>
   );
 }
