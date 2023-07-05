@@ -1,7 +1,8 @@
 import Animation from './components/Animation';
-
-import Layout from './layout/layout';
-import Company from './pages/companypage.jsx';
+import First from './components/explore/firstpage/First';
+import Sec from './components/explore/secondpage/Sec';
+import Navbar from './components/explore/Navbar';
+import Register from './components/register/Register';
 import React, { Suspense, lazy } from 'react';
 import { Route, Routes,Router } from 'react-router-dom';
 import './components/Animation.css';
