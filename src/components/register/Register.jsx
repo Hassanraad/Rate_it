@@ -22,8 +22,8 @@ export default function Register () {
              your meal <br />
              better</h1>
         <div className="divvv1">
-            <p className="par1">Rate it</p>
-            <p className="par2">Welcome</p>
+            <p className="parg1">Rate it</p>
+            <p className="parg2">Welcome</p>
             <form className="register-form" onSubmit={handleSubmit}>
                 <label className="l1">Name :</label> 
                 
