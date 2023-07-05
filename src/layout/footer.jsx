@@ -16,15 +16,15 @@ export default function Footer() {
         <footer>
 
 <div className="s01">
-    <p className="p1">More about company</p>
-    <p className="p2">Makers masarat Graduation project</p>
+    <p className="p01">More about company</p>
+    <p className="p02">Makers masarat Graduation project</p>
 </div>
 <div className="s02" >
 <h1 className="logo">Rate it</h1>
     <span className="s04">Social media</span>
-    <span className="span1"><img src={facebook} alt="" width={24} height={24} /><a href="#" className="a1">Facebook</a></span>
-    <span className="span1"><img src={insta} alt="" width={24} height={24} /><a href="#"className="a1">Instgram</a></span>
-    <span className="span1" ><img src={Twitter} alt="" width={24} height={24} /><a href="#"className="a1">Twitter</a></span>
+    <span className="span1"><img src={facebook} alt="" width={24} height={24} /><a href="#" className="a001">Facebook</a></span>
+    <span className="span1"><img src={insta} alt="" width={24} height={24} /><a href="#"className="a001">Instgram</a></span>
+    <span className="span1" ><img src={Twitter} alt="" width={24} height={24} /><a href="#"className="a001">Twitter</a></span>
 </div>
 <div className="s03"> 
     <span className="s05">Contact us</span>
