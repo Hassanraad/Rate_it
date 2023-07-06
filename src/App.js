@@ -12,6 +12,7 @@ import "./components/register/Form1.css"
 import './components/explore/Navcss.css'
 import './components/explore/secondpage/Sec.css';
 import './components/explore/firstpage/First.css';
+import Footer from './layout/footer';
 
 
 import Layout from './layout/footer';
@@ -22,10 +23,11 @@ function App() {
   return (
 
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <First />
-     <Sec/>
-      <Layout/>
+      <Animation />
+      <Sec />
+      <Footer />
    </div>
   );
 }

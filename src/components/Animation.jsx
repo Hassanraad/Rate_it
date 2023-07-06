@@ -46,7 +46,7 @@ class Animation extends Component {
         <img src={RedStar} alt={this.props.imageAlt} style={{ transform: this.state.transform }} className='img3'/>
         <img src={delivery} alt={this.props.imageAlt} style={{ transform: this.state.transform }} className='img4'/>
 
-        <p className='para'>What you can find here</p>
+        <p className='paraww'>What you can find here</p>
        </div>
     );
   }
