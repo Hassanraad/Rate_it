@@ -24,9 +24,10 @@ function App() {
 
     <div className="App">
       <Navbar />
-      <First />
+      
       <Animation />
-      <Sec />
+      
+      <Register />
       <Footer />
    </div>
   );
