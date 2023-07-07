@@ -1,152 +1,99 @@
 .nav{
-    position: absolute;
-    width: 1352px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+    width: 100%;
     height: 57px;
-    left: 0px;
-    top: 0px;
     background: #FCFCFC;
 }
-.para123{
-    position: absolute;
-    left: 3.4%;
-    right: 88.24%;
-    top: 36.84%;
-    bottom: 5.26%;
+.lbl001{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.2px solid black;
+    border-radius: 5px;
+}
+.img0001{
+    border-left: 0.2px solid black ;
+    padding: 4px 4px;
+    cursor: pointer;
+}
+.div0001{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.div0002{
+    margin: 5px 15px;
+}
+.in0001{
+    background-color: #FCFCFC;
+    width: 200px;
+    height: 24px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parag123{
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
     color: #FA8A7B;
+    margin: 0px 20px;
 }
 .home , .service , .about , .content{
-    position: absolute;
-
-    top: 49.12%;
-    bottom: 16.43%;
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 20px;
     text-align: center;
+    color: #928484;
+    text-decoration: none;
+}
+.home:hover,.service:hover,.about:hover,.content:hover{
+    transition: 0.5s ease;
     color: #504C4C;
 }
-.home{
-    left: 14.79%;
-right: 78.15%;
-}
-.service{
-    left: 21.82%;
-right: 71.12%;
-}
-.about{
-    left: 28.85%;
-right: 63.09%;
-}
-.content{
-    left: 36.91%;
-right: 55.47%;
-}
-.btn1{
-    position: absolute;
-    left: 83.21%;
-    right: 9.18%;
-    top: 33.33%;
-    bottom: 5.26%;
-    font-family: 'Merriweather';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-border : 0px;
-text-align: center;
-color: #504C4C;
-}
-.btn2{
-    position: absolute;
-width: 106px;
-height: 35px;
-left: 1228px;
-top: 19px;
+
+.btn1{ 
+    padding: 5px 10px;
+    border: none;
+    background-color: #FCFCFC;
 font-family: 'Merriweather';
 font-style: normal;
-font-weight: 700;
 font-size: 16px;
-line-height: 20px;
+border-radius: 6px;
+text-align: center;
+color: #504C4C;
+cursor: pointer;
+}
+
+.btn2{
+    padding: 5px 10px;
+    background-color: #FCFCFC;
+font-family: 'Merriweather';
+font-style: normal;
+font-size: 16px;
 border: 1px solid #000000;
 border-radius: 6px;
 text-align: center;
 color: #504C4C;
+cursor: pointer;
 }
-.p2{
-    position: absolute;
-width: 627px;
-height: 280px;
-left: 52px;
-top: 144px;
-font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 600;
-font-size: 90px;
-line-height: 119px;
-color: #504C4C;
-}
-.p3{
-    position: absolute;
-    width: 273px;
-    height: 50px;
-    left: 41px;
-    top: 424px;
-    
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    
+.btn1:hover{
+    transition: 0.5s ease;
+
     color: #000000;
 }
-.btn3{
-    position: absolute;
-width: 133px;
-height: 38px;
-left: 52px;
-top: 515px;
-background: #FAA89D;
-border: 1px solid #000000;
-border-radius: 6px;
-box-sizing: border-box;
-font-family: 'Merriweather';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
+.btn2:hover{
+    transition: 0.5s ease;
 
-text-align: center;
-
-color: #504C4C;
-}
-.btn4{
-    position: absolute;
-    width: 133px;
-    height: 38px;
-    left: 222px;
-    top: 515px;   
-    font-family: 'Merriweather';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-text-align: center;
-color: #504C4C;
-}
-.img123{
-    position: absolute;
-width: 754px;
-height: 533px;
-left: 580px;
-top: 121px;
-
-
+    color: #000000;
 }

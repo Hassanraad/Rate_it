@@ -17,35 +17,42 @@ export default function Register () {
 
      return(
         <div className="div11">
-        <img src={background} className='background'/>
-        <h1 className="h1">SignUp to make<br />
+        <h1 className="h001">SignUp to make<br />
              your meal <br />
              better</h1>
-        <div className="div1">
-            <p className="pa1">Rate it</p>
-            <p className="pa2">Welcome</p>
+        <div className="divvv1">
+          
             <form className="register-form" onSubmit={handleSubmit}>
+                <div>
+            <p className="parg1">Rate it</p>
+            <p className="parg2">Welcome</p>
+            </div>
+            <div className="div0012">
                 <label className="l1">Name :</label> 
                 
                 <input value={name} onChange={(e) => setName(e.target.value)} type="text" className="in1" placeholder=" Name" required />
-                
+                </div>
+                <div  className="div0012">
                 <label className="l2">Email :</label>
                 
                 <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" className="in2" placeholder=" Email" required />
-                
-                <label className="l3">Password</label>
+                </div>
+                <div  className="div0012">
+                <label className="l3">Password:</label>
                 
                 <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" className="in3" placeholder=" Password" required />
-                
+                </div>
                 <div className="div2">
                     <label className="a1">Do you have an account?</label>
-                    <a className="a2">Login</a>
+                    <a href="#" className="a2">Login</a>
                 </div>
-                <button type="submit" className="in4"  > Register  </button>
+                <div className="div0013">
+                <button type="submit" className="in4"  > Continue  </button>
                 <label className="l4">OR</label>
                     <div className="div3">
-                        <input type="submit" value="Login here " className="in5" />
+                        <input type="submit" value="Continue with Facebook" className="in5" />
                         <input type="submit" value="Continue with google" className="in6" />
+                        </div>
                     </div>
                 <div>
                 

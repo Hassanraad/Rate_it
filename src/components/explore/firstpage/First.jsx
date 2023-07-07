@@ -1,14 +1,22 @@
 import img from'./img1.png';
-export default function (){
+export default function First(){
     return (
         <div className="dd">
-        <p className="pp2">Rate it & make 
-        it better </p>
-        <p className="p3">Here you can rate your meal & get a better experiment next time</p>
-        <button className="btn3">Explore</button>
-        <button className="btn4">Read more</button>
-        
-        <img src={img} className='img123'></img>
+            <div className='div0003'>
+            <div className='div0004'>
+        <p className="ppa2">Rate it & make
+        it better </p> 
+        </div>
+        <div className='div0004'>
+        <p className="ppa3">Here you can rate your meal & get a better experiment next time</p>
+        </div>
+        <div className='div0005'>
+        <button className="btn003">Explore</button>
+        <button className="btn004">Read more</button></div>
+        </div>
+        <div className='div0006'>
+        <img src={img} width={700} height={500}></img>
+        </div>
 
         </div>
     );
