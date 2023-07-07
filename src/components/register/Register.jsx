@@ -17,7 +17,7 @@ export default function Register () {
 
      return(
         <div className="div11">
-        <h1 className="h1">SignUp to make<br />
+        <h1 className="h001">SignUp to make<br />
              your meal <br />
              better</h1>
         <div className="divvv1">
