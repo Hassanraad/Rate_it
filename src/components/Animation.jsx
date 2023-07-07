@@ -40,13 +40,27 @@ class Animation extends Component {
   render() {
     return (
       <div className="Animation">
-        
+        <div className='no0001'>
+         <p className='paraww'>What you can find here</p></div>
+         <div className='no0002'>
+          <div className='no0003'>
         <img src={location} alt={this.props.imageAlt} style={{ transform: this.state.transform }} className='img1'/>
+        <p className='pre0001'>Closest res. to you</p>
+        </div>
+        <div className='no0003'>
         <img src={burger} alt={this.props.imageAlt} style={{ transform: this.state.transform }} className='img2'/>
+        <p className='pre0001'>Best food</p>
+        </div>
+        <div className='no0003'>
         <img src={RedStar} alt={this.props.imageAlt} style={{ transform: this.state.transform }} className='img3'/>
+        <p className='pre0001'>Rate your meal</p>
+        </div>
+        <div className='no0003'>
         <img src={delivery} alt={this.props.imageAlt} style={{ transform: this.state.transform }} className='img4'/>
-
-        <p className='paraww'>What you can find here</p>
+        <p className='pre0001'>Take it in time</p>
+        </div>
+        </div>
+       
        </div>
     );
   }
