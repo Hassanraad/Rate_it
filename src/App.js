@@ -8,18 +8,20 @@ import './components/explore/secondpage/Sec.css';
 import './components/explore/firstpage/First.css';
 import Layout from './layout/layout';
 import Company from './pages/companypage';
+import Login from "./components/register/Login";
 
 function App() {
   
   return (
 
     <div className="App">
-      <Routes>
+      {/* <Routes>
         <Route element={<Layout/>}>
         <Route index element={<Slider/>}/>
         <Route path='/company' element={<Company/>}/>
         </Route>
-      </Routes>
+      </Routes> */}
+        <Login/>
    </div>
   );
 }

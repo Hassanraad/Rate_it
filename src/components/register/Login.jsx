@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-
-export const Login = (props) => {
+import Chif from "../../assets/imgs/Premium_Vector___Smiling_chef_cartoon_character-removebg-preview.png";
+import  "./Login.css";
+export default function Login  ()  {
     const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
 
@@ -11,16 +12,34 @@ export const Login = (props) => {
     }
 
     return (
-        <div className="auth-form-container">
-            <h2>Login</h2>
-            <form className="login-form" onSubmit={handleSubmit}>
-                <label htmlFor="email">email</label>
-                <input value={email} onChange={(e) => setEmail(e.target.value)}type="email" placeholder="youremail@gmail.com" id="email" name="email" />
-                <label htmlFor="password">password</label>
-                <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
-                <button type="submit">Log In</button>
-            </form>
-            <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Don't have an account? Register here.</button>
+<>
+<div >
+    <div  className="dv000">
+    <div className="dv001">
+        <img src={Chif} alt="" />
+    </div>
+    <form action="" className="frm001">
+        <div className="dv002">
+            <h1 className="h1001">Welcome back!</h1>
         </div>
+        <div className="dv002">
+            <p className="p00000001">Here you can rate your meal & get a better experiment next time</p>
+        </div>
+        <label className="lbl000001" > Email:</label>
+        <input type="text" placeholder="Email" className="inpt00001" />
+        <label className="lbl000002" > Paasword:</label>
+        <input type="text" placeholder="Paasword"  className="inpt00001" />
+        <div className="dv003"><a href="#" className="a00001">Forget your password?</a></div>
+        <div><button  className="btn00002">Continue</button></div>
+        <div>
+            <button className="btn00000">Facebook</button>
+            <button  className="btn00001">Google</button>
+        </div>
+        <div> <a href="" className="a00002"> Create a new acouunt</a></div>
+    </form>
+    </div>
+</div>
+
+</>
     )
 }
