@@ -8,7 +8,6 @@ import './components/explore/secondpage/Sec.css';
 import './components/explore/firstpage/First.css';
 import Layout from './layout/layout';
 import Company from './pages/companypage';
-
 function App() {
   
   return (
