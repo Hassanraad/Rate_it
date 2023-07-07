@@ -3,6 +3,10 @@ import React , { useEffect, useState} from "react";
 import user from '../assets/imgs/profile.png'
 import Flotlist from '../components/rating';
 import {FaStar}from'react-icons/fa';
+
+import {db} from '../firebase/firebase';
+import {addDoc,collection} from 'firebase/firestore';
+
 export default function Company(){
     const [newitem,setitem]=useState();
     const [newcom,setcom]=useState([]);
@@ -24,7 +28,21 @@ export default function Company(){
         console.log("change")
         console.log (`${current} ${current1} ${current2} ${current4} ${current3} ${total}`)
 },[current,current1,current2,current3,current4,total])
+const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log(e);
+    // setRun(prev=>prev+1);
+    try {
+    await addDoc(collection(db, 'comments'), {
+     newcom , 
+    });
+    } catch (err) {
+    alert(err);
+    }
 
+
+
+};
     return (
         <>
         <div className='layout'>
