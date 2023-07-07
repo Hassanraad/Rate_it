@@ -1,19 +1,28 @@
 import React, { useState } from "react";
-
+import {db} from '../../firebase/firebase' 
 import background from './pizza.jpg';
-
+import {addDoc,collection} from 'firebase/firestore';
 
 export default function Register () {
     const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
     const [name, setName] = useState('');
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(email);
-        console.log(pass);
-        console.log(name);
-    }
+        console.log(e);
+        // setRun(prev=>prev+1);
+        try {
+        await addDoc(collection(db, 'users'), {
+        name , email , pass , 
+        });
+        } catch (err) {
+        alert(err);
+        }
+
+
+    
+    };
 
      return(
         <div className="div11">
