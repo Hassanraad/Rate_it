@@ -23,21 +23,18 @@ function App() {
   return (
 
     <div className="App">
-<<<<<<< HEAD
       <Navbar />
       
       <Animation />
       
       <Register />
       <Footer />
-=======
       <Navbar/>
       <First />
      <Sec/> 
        <Register/>
       <Layout/>
    
->>>>>>> 7b711901d8070bc29aa917eee4f9e40976ca45ec
    </div>
   );
 }

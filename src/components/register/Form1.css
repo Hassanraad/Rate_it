@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 .div11{
   background-image: url("./pizza.jpg");
   height: 657px;
@@ -11,7 +10,7 @@
   align-items:center;
   
     }
-    .h1{
+    .h001{
       display: inline-block;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -56,8 +55,7 @@
     text-align: center;
     color: #FA7A69;
     }
-    .parg2{
-=======
+  
   .div11{
 background-image: url("./pizza.jpg");
 height: 657px;
@@ -81,7 +79,6 @@ margin-left: 25px;
   font-style: normal;
   font-weight: 600;
   font-size: 86px;
->>>>>>> 7b711901d8070bc29aa917eee4f9e40976ca45ec
   
     
     font-family: 'Merriweather';
@@ -94,7 +91,6 @@ margin-left: 25px;
     }
     .l1{
   
-<<<<<<< HEAD
       
       font-family: 'Merriweather';
       font-style: normal;
@@ -205,7 +201,7 @@ margin-left: 25px;
       background-color:#f78576;
     }
     .l4{
-=======
+
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
   .divvv1{
@@ -249,7 +245,6 @@ margin-left: 25px;
   }
   .l1{
 
->>>>>>> 7b711901d8070bc29aa917eee4f9e40976ca45ec
     
     font-family: 'Merriweather';
     font-style: normal;
@@ -277,13 +272,11 @@ margin-left: 25px;
   
     padding: 6px 32px;
   }
-<<<<<<< HEAD
     .in5:hover{
       transition: 0.5s ease;
-=======
+
   .l2{
 
->>>>>>> 7b711901d8070bc29aa917eee4f9e40976ca45ec
   
       background-color: #0267c5;
     }
@@ -294,7 +287,6 @@ margin-left: 25px;
     .in6{  
       padding: 6px 40px;
   
-<<<<<<< HEAD
       cursor: pointer;
       margin-top:10px ;
     background: #FFFFFF;
@@ -313,7 +305,6 @@ margin-left: 25px;
       align-items: center;
       flex-direction: column;
     }
-=======
   color: #2D2A2A;
   }
   .l3{
@@ -464,4 +455,3 @@ margin-left: 25px;
     align-items: center;
     flex-direction: column;
   }
->>>>>>> 7b711901d8070bc29aa917eee4f9e40976ca45ec
