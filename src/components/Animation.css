@@ -1,33 +1,28 @@
 .Animation{
-    background-color: #EFD67D;
-    position: absolute;
-    width: 1352px;
-    height: 700px;
-    left: 0px;
-    top: 1408px;
-
+    width: 100%;
+height: 650px;
+align-items: center;
+flex-shrink: 0;
+background: #EFD67D;
+position: flex;
 }
-.para{
-    position: absolute;
-    
-left: 27.83%;
-right: 32.35%;
-top: 12.71%;
-bottom: 63.43%;
-width: 452px;
-font-family: 'Roboto Slab';
-font-weight: bold;
-font-style: normal;
-font-size: 64px;
-line-height: 84px;
-text-align: center;
-
-color: #504C4C;
-}
-.container {
+.paraww{
     display: flex;
-  }
-  
+    width: 452px;
+    height: 0px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #504C4C;
+text-align: center;
+font-family: Roboto Slab;
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin : -750px 450px 0px 450px; 
+
+}
+
   .img1 , .img2 , .img3 , .img4 {
     width: 90px;
     height: 90px;
@@ -53,31 +48,18 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 6px;
 }
 .img1{
-    position: absolute;
-    left: 72.71%;
-    right: 10.75%;
-    top: 52.71%;
-    bottom: 16.59%;
-    
+    position: flex;
+    margin : 369px 116.12px;
 }
 .img2{
-    position: absolute;
-left: 52%;
-right: 31.46%;
-top: 52.71%;
-bottom: 16.59%;
+    position: flex;
+    margin : 369px 116.12px;
 }
 .img3{
-    position: absolute;
-left: 31.14%;
-right: 52.32%;
-top: 52.71%;
-bottom: 16.59%;
+    position: flex;
+    margin : 369px 116.12px;
 }
 .img4{
-    position: absolute;
-left: 10.28%;
-right: 73.18%;
-top: 52.71%;
-bottom: 16.59%;
+    position: flex;
+    margin : 369px 116.12px;
 }
