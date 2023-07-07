@@ -4,6 +4,7 @@ body{
     background-color: #FCFCFC;
 }
 .layout{
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
@@ -166,7 +167,7 @@ color: #928484;
     opacity: 100%;
     visibility: visible;
     position: absolute ;
-    top: 21%;
+    top: 31%;
     right: auto;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
     background-color: #FCFCFC;
