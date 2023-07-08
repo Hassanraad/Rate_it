@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 import { Route, Routes,Router } from 'react-router-dom';
+import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 import './components/Animation.css';
 import Slider from './components/slider'
 import "./components/register/Form1.css"
@@ -8,19 +9,22 @@ import './components/explore/secondpage/Sec.css';
 import './components/explore/firstpage/First.css';
 import Layout from './layout/layout';
 import Company from './pages/companypage';
+import { Register } from './components/register/Register';
 
 function App() {
   
   return (
-
-    <div className="App">
+  <Register>
+    <Router>
       <Routes>
-        <Route element={<Layout/>}>
-        <Route index element={<Slider/>}/>
-        <Route path='/company' element={<Company/>}/>
-        </Route>
+        <Route path='/Register' element={<Register />} />
+        <Route path='/Signin' element={<Signin />} /> 
+        <Route path='/update-profile' element={<update-profile />} /> 
+
       </Routes>
-   </div>
+    </Router>
+    
+  </Register>
   );
 }
 
