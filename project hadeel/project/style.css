@@ -1,0 +1,249 @@
+
+.desktop-2-item {
+  position: absolute;
+  
+  top: 10px;
+  left: 87px;
+  border-radius: var(--br-2xs);
+  width: 448px;
+  height: 593px;
+  object-fit: cover;
+}
+
+
+.desktop-2-child5 {
+  position: absolute;
+  top: 10px;
+  left: 87px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-700);
+  width: 448px;
+  height: 593px;
+}
+.description {
+  position: absolute;
+  height: 6.34%;
+  width: 26.33%;
+  top: 30.00%;
+  left: 7%;
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+
+
+.desktop-2 {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 693px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+  font-family: var(--font-roboto-slab);
+}
+
+.component-12-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-tomato);
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.25);
+  border: 0.3px solid var(--color-black);
+  box-sizing: border-box;
+}
+
+.component-121 {
+  position: absolute;
+  top: 400px;
+  left: 232px;
+  border-radius: var(--br-2xs);
+  width: 158px;
+  height: 49px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+
+.order-now2 {
+  color: #fff !important;
+  position: absolute;
+  height: 50.91%;
+  width: 73.2%;
+  top: 13.64%;
+  left: 13.4%;
+  display: inline-block;
+}
+
+
+
+
+
+.frame-group {
+  position: absolute;
+  
+  width: 1352px;
+  height: 454px;
+  color: var(--color-white);
+}
+
+.frame-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 454px;
+  height: 454px;
+}
+
+.frame-child3,
+.frame-child4 {
+  position: absolute;
+  left: 0;
+  width: 454px;
+}
+
+.frame-child3 {
+  top: 0;
+  height: 454px;
+  object-fit: cover;
+}
+.frame-child4 {
+  top: 269px;
+  background: linear-gradient(
+    0deg,
+    #000,
+    rgba(0, 0, 0, 0.66) 64.06%,
+    transparent
+  );
+  height: 185px;
+}
+
+.the-best-restaurant4 {
+  position: absolute;
+  top: 280px;
+  left: 17px;
+  width: 180px;
+  height: 39px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-merriweather);
+}
+
+
+.the-best-restaurant5 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+
+.the-best-restaurant6 {
+  position: absolute;
+  top: 402px;
+  left: 16px;
+  width: 264px;
+  height: 39px;
+  font-size: var(--font-size-13xl);
+}
+
+.div11 {
+  font-size: 24px;
+  position: absolute;
+  top: 63.44%;
+  left: 44.93%;
+}
+
+.m1,
+.oneone1 {
+  font-size: 24px;
+  position: absolute;
+  height: 5.51%;
+  width: 15.86%;
+  top: 90.31%;
+  left: 61.67%;
+  display: inline-block;
+}
+.oneone1 {
+  font-size: 24px;
+  height: 13.44%;
+  width: 96.7%;
+  top: 72.47%;
+  left: 3.74%;
+  color: var(--color-whitesmoke-200);
+}
+
+.frame-child6,
+.frame-child7 {
+  position: absolute;
+  left: 454px;
+  width: 454px;
+}
+.frame-child6 {
+  top: 0;
+  height: 454px;
+  object-fit: cover;
+}
+.frame-child7 {
+  top: 269px;
+  background: linear-gradient(
+    0deg,
+    #000,
+    rgba(0, 0, 0, 0.66) 64.06%,
+    transparent
+  );
+  height: 185px;
+}
+
+.frame-child9,
+.rectangle-frame {
+  position: absolute;
+  top: 0;
+  left: 908px;
+  width: 444px;
+  height: 454px;
+}
+.frame-child9 {
+  top: 267px;
+  background: linear-gradient(
+    0deg,
+    #000,
+    rgba(0, 0, 0, 0.66) 64.06%,
+    transparent
+  );
+  width: 454px;
+  height: 185px;
+}
+
+.frame-child3,
+.frame-child4 {
+  position: absolute;
+  left: 0;
+  width: 454px;
+}
+.frame-child3 {
+  top: 0;
+  height: 454px;
+  object-fit: cover;
+}
+
+.frame-child5 {
+  position: absolute;
+  height: 5.79%;
+  width: 27.31%;
+  top: 64.1%;
+  right: 16.74%;
+  bottom: 30.11%;
+  left: 55.95%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
