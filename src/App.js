@@ -15,13 +15,14 @@ function App() {
   return (
 
     <div className="App">
-      {/* <Routes>
+      <Routes>
+      <Route path='/Login' element={<Login/>}/>
         <Route element={<Layout/>}>
         <Route index element={<Slider/>}/>
         <Route path='/company' element={<Company/>}/>
         </Route>
-      </Routes> */}
-        <Login/>
+      </Routes>
+        
    </div>
   );
 }
