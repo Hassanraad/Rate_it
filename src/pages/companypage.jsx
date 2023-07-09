@@ -6,11 +6,11 @@ import {FaStar}from'react-icons/fa';
 import { addDoc,collection ,onSnapshot,query} from 'firebase/firestore';
 import { db } from '../firebase/firebase';
 import { getAuth } from 'firebase/auth';
-
-
+import { useNavigate } from 'react-router-dom';
 export default function Company(){
     const [newitem,setitem]=useState();
     const [newcom,setcom]=useState([]);
+    const naviagte = useNavigate();
     const{render,current,current1,current2,current3,current4}= Flotlist()
     const total = Math.round((current+current1+current2+current3+current4)/5)
 
@@ -35,6 +35,9 @@ export default function Company(){
     };
 
     useEffect(()=>{ 
+        if(localStorage.getItem("token")===""){
+            naviagte('/');
+          }
         const q = query(collection(db, 'comments'));
         onSnapshot(q, (querySnapshot) => {
           console.log(querySnapshot);
