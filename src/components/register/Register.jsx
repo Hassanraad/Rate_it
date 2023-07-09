@@ -1,32 +1,41 @@
-import { createUserWithEmailAndPassword,sendEmailVerification } from "firebase/auth";
+import { createUserWithEmailAndPassword,sendEmailVerification ,updateProfile} from "firebase/auth";
 import React, { useState,useEffect } from "react";
-import auth from "../../firebase/firebase";
+import auth, { db } from "../../firebase/firebase";
 import { useNavigate } from 'react-router-dom';
+
+   const token = localStorage.getItem('token');
 export default function Register () {
-    const [email, setEmail] = useState('');
+ const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
     const [name, setName] = useState('');
     const [loding,setloding]=useState(false)
     const naviagte = useNavigate();
-
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e) => { 
         e.preventDefault();
-        
-            await createUserWithEmailAndPassword(auth, email,pass).then((userCreditals) => {
-                setloding(true)
-                const user = userCreditals.user;
-                sendEmailVerification(user);
-                localStorage.setItem('token', user.accessToken);
-                alert('we sent u email please verify ur email address');
-                naviagte('/login');
+        await createUserWithEmailAndPassword(auth, email, pass)
+          .then(async (userCreditals) => {
 
-        }).catch((error) => {
-            console.log(error);
+            const user = userCreditals.user;
+            await updateProfile(user,{
+                displayName:name
+            })
+            sendEmailVerification(user);
+            console.log(user)
+            alert('we sent u email please verify ur email address');
+            naviagte('/login');
+          })
+          .catch((error) => {
+            console.log(error.message);
           });
+          
         setloding(false);
-
     }
-     return(
+    useEffect(()=>{
+        if(localStorage.getItem("token")!==""){
+          naviagte('/company');
+        }
+      },[])
+     return (
         <div className="div11">
         <h1 className="h0001">SignUp to make<br />
              your meal <br />

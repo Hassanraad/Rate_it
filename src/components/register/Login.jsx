@@ -1,4 +1,4 @@
-import React,{ useState } from 'react';
+import React,{ useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Chif from "../../assets/imgs/Premium_Vector___Smiling_chef_cartoon_character-removebg-preview.png";
 import  "./Login.css";
@@ -7,8 +7,6 @@ import auth from '../../firebase/firebase';
 export default function Login  ()  {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [token, settoken] = useState('');
-
     const naviagte = useNavigate();
 
     const handleSubmit = async (e) => {
@@ -26,9 +24,14 @@ export default function Login  ()  {
           }
         })
         .catch((error) => {
-          console.log(error);
+          console.log(error.message);
         });
     };
+    useEffect(()=>{
+      if(localStorage.getItem("token")!==""){
+        naviagte('/company');
+      }
+    },[])
     return (
 <>
 <div >
@@ -48,7 +51,7 @@ export default function Login  ()  {
         <label className="lbl000002" > Paasword:</label>
         <input type="text" placeholder="Paasword"  className="inpt00001"  value={password} onChange={(e)=>{setPassword(e.target.value)}}/>
         <div className="dv003"><a href="#" className="a00001">Forget your password?</a></div>
-        <div><button  className="btn00002" >Continue</button></div>
+        <div><button type='Submit' className="btn00002" >Continue</button></div>
         <div>
             <button className="btn00000">Facebook</button>
             <button  className="btn00001">Google</button>
