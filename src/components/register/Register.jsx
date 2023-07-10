@@ -1,23 +1,43 @@
-import React, { useState } from "react";
+import { createUserWithEmailAndPassword,sendEmailVerification ,updateProfile} from "firebase/auth";
+import React, { useState,useEffect } from "react";
+import auth, { db } from "../../firebase/firebase";
+import { useNavigate } from 'react-router-dom';
 
-import background from './pizza.jpg';
-
-
+   const token = localStorage.getItem('token');
 export default function Register () {
-    const [email, setEmail] = useState('');
+ const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
     const [name, setName] = useState('');
-
-    const handleSubmit = (e) => {
+    const [loding,setloding]=useState(false)
+    const naviagte = useNavigate();
+    const handleSubmit = async (e) => { 
         e.preventDefault();
-        console.log(email);
-        console.log(pass);
-        console.log(name);
-    }
+        await createUserWithEmailAndPassword(auth, email, pass)
+          .then(async (userCreditals) => {
 
-     return(
+            const user = userCreditals.user;
+            await updateProfile(user,{
+                displayName:name
+            })
+            sendEmailVerification(user);
+            console.log(user)
+            alert('we sent u email please verify ur email address');
+            naviagte('/login');
+          })
+          .catch((error) => {
+            console.log(error.message);
+          });
+          
+        setloding(false);
+    }
+    useEffect(()=>{
+        if(localStorage.getItem("token")!==""){
+          naviagte('/company');
+        }
+      },[])
+     return (
         <div className="div11">
-        <h1 className="h001">SignUp to make<br />
+        <h1 className="h0001">SignUp to make<br />
              your meal <br />
              better</h1>
         <div className="divvv1">
@@ -47,11 +67,11 @@ export default function Register () {
                     <a href="#" className="a2">Login</a>
                 </div>
                 <div className="div0013">
-                <button type="submit" className="in4"  > Continue  </button>
+                <button type="submit" className="in4" disabled={loding} > Continue  </button>
                 <label className="l4">OR</label>
                     <div className="div3">
-                        <input type="submit" value="Continue with Facebook" className="in5" />
-                        <input type="submit" value="Continue with google" className="in6" />
+                        <input type="submit" value="Continue with Facebook" className="in5" disabled={loding} />
+                        <input type="submit" value="Continue with google" className="in6" disabled={loding} />
                         </div>
                     </div>
                 <div>

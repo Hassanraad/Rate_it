@@ -53,8 +53,11 @@ body{
     text-align: center;
     border-radius: 6px;
 }
-.com00{
+.frm000{
     width: 60%;
+}
+.com00{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -124,9 +127,11 @@ cursor: pointer;
     margin-top: 11px;
     list-style-type: none;
     padding-inline-start: 0;
+    flex-direction: column;
 }
 .chlis00{
     width: 100%;
+    margin-top: 20px;
 }
 .sp02{
     display: flex;
@@ -268,6 +273,9 @@ margin-top: 30px;
     margin-bottom: 30px;
 
 }
+.frm000{
+    width: 100%;
+}
 .com00{
     width: 100%;
     display: flex;
@@ -304,8 +312,8 @@ margin-top: 30px;
     font-size: 14px;
 }
 .flotlisttrue{
-    top: 54%;
-    width: 50%;
+    top: 381px;
+    width: 200px;
 }
 .p04{
     font-size: 14px;
