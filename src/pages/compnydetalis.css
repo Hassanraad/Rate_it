@@ -1,0 +1,52 @@
+.header0001{
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    background-image: url('../assets/ads/106924144-1628532239153-HERO_Pizza_Hut_X_Beyond_Pepperoni.jpg');
+    width: 100%;
+    height: 400px;
+    background-repeat: repeat;
+    background-size: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.header0002{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+.pam00000001{
+    color: #ff4c4c;
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    margin-inline-start: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    }
+.pam00000002{
+    color: white;
+    margin-block-start: 3px;
+    margin-block-end: 10px;
+    margin-inline-start: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    
+    font-family: 'Roboto', sans-serif;
+}
+.pam00000003{
+    width: 310px;
+    color: white;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    
+    font-family: 'Roboto', sans-serif;
+}
