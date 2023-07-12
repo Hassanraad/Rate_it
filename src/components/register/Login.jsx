@@ -28,11 +28,6 @@ export default function Login  ()  {
           console.log(error.message);
         });
     };
-    useEffect(()=>{
-      if(localStorage.getItem("token")!==""){
-        naviagte('/company');
-      }
-    },[])
     return (
 <>
 <div >

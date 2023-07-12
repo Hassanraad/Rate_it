@@ -3,7 +3,6 @@ import React, { useState,useEffect } from "react";
 import auth, { db } from "../../firebase/firebase";
 import { useNavigate } from 'react-router-dom';
 
-   const token = localStorage.getItem('token');
 export default function Register () {
  const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
@@ -30,11 +29,7 @@ export default function Register () {
           
         setloding(false);
     }
-    useEffect(()=>{
-        if(localStorage.getItem("token")!==""){
-          naviagte('/company');
-        }
-      },[])
+
      return (
         <div className="div11">
         <h1 className="h0001">SignUp to make<br />

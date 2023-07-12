@@ -32,7 +32,7 @@ const Home=()=>{
        <button> Order now</button>
       </div>
        
-       <img src={pic2} alt="" />
+       <img src="" alt="" />
      
     </div>
 
