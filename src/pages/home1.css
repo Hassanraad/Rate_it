@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .firsP , .secP{
+   width:297px; 
+   height: 42px;
+   top: 6px;
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 32px;
+     
+    line-height: 42.2px;
+    color: #504C4C;
+   margin-bottom: 10px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container img{
+    width:741px;
+    height: 427px;
+    top: 75px;
+    left:611px;
+    margin-left: 150px;
+  }
+  .container p {
+  width:614px ;
+  height: 241px;
+  top:168px ;
+  left: 49px;
+  
+  
+    font-weight: 600;
+    font-size: 70px;
+    line-height :92.32px; 
+    color: #504c4c;
+    margin-left: 50px; 
+  }
+  .container2 {
+    display: flex;
+    align-items: center;
+    width: 1187px;
+    height: 302px;
+    border-radius: 11px;
+     top: 938px;
+    background-color: #68B7C9;
+  margin-left: 20px;
+  
+  }
+  
+  .container2 img{
+  display: flex;
+    width: 568px;
+    height: 302px;
+    left: 619px;
+    top: 75px;
+  
+    border-radius:11px ;
+     margin-left:300px;
+     
+  
+  }
+  
+  
+   .container2  p{
+    flex: 1;
+    width:356px ;
+    height: 125px;
+      top:34px;
+     left:134px; 
+  
+      font-weight: 600;
+     font-size: 32px;
+     line-height: 42.2px;
+     text-align:center;
+    color: #504c4c;
+   margin-left: 120px; 
+  margin-top: 10px;
+  } 
+  .container2 button{
+  background-color: #FA8A7B;
+  width: 194px;
+  height: 55px;
+  top: 1135px;
+  left: 289px;
+  border: 0px;
+  border-radius: 6px;
+  margin-left:180px ;
+  text-align: center;
+  font-family: Roboto Slab;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26.38px;
+  color: #504C4C;
+  
+  } 
+  .container2 button text{
+  width: 142px;
+  height: 28px;
+  top: 13px;
+  left: 26px;
+  
+  
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 0 0 5px  black;
+    width: 360px;
+    margin: 20px;
+    height: 227.57px;
+   
+    border-radius:16px; 
+  }
+  .contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .card-image img{
+  width: 360px;
+  height: 150.43px;
+  top: 605px;
+  
+  border-radius: 16px; ;
+  }
+  
+  .leftContact >.card-title , .description {
+  flex: 1;
+    text-align:left;
+    margin: 0;
+    padding: 10px;
+  }
+  .rightContact > .card-rating{
+    text-align: right;
+    margin-right: 100;
+    padding: 10px;
+  
+  }
+  .card-title{
+    font-weight:700;
+  
+    font: Merriweather;
+    font-size: 24px;
+    line-height: 30.17px;
+    color: #504c4c;
+  margin: 0;
+  padding: 10;
+  }
+  .description{
+    font-family: roboto slab;
+    font-weight: 400;
+  font-size: 16px;
+  line-height: 2px;
+  color: #928484;
+  }
+  .home-cards{
+  width: 80%;
+  display:flex;
+    justify-content: space-around;
+  margin-left: 270px ;
+  
+  }
+  .home-cards > .card {
+  display: inline-block; 
+   
+  }
