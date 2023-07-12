@@ -1,3 +1,4 @@
+
 import React,{ useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Chif from "../../assets/imgs/Premium_Vector___Smiling_chef_cartoon_character-removebg-preview.png";
@@ -27,7 +28,11 @@ export default function Login  ()  {
           console.log(error.message);
         });
     };
-
+    useEffect(()=>{
+      if(localStorage.getItem("token")!==""){
+        naviagte('/company');
+      }
+    },[])
     return (
 <>
 <div >

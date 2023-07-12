@@ -30,7 +30,11 @@ export default function Register () {
           
         setloding(false);
     }
-
+    useEffect(()=>{
+        if(localStorage.getItem("token")!==""){
+          naviagte('/company');
+        }
+      },[])
      return (
         <div className="div11">
         <h1 className="h0001">SignUp to make<br />
