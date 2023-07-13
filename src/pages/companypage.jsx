@@ -14,7 +14,7 @@ export default function Company(){
     const naviagte = useNavigate();
     const{render,current,current1,current2,current3,current4}= Flotlist()
     const total = Math.round((current+current1+current2+current3+current4)/5)
-
+const imgpp=localStorage.getItem("img")
     const Add= async (e)=>{
         e.preventDefault();
         const auth = getAuth();
@@ -27,6 +27,7 @@ export default function Company(){
             name,
             newitem,
             total,
+            imgpp,
         });
       } catch (err) {
         alert(err);
@@ -69,7 +70,7 @@ export default function Company(){
             <div className='com00'>
                 <h1 className='h00'>Comments</h1>
                 <span className='sp00'>
-                    <a href="#"  className='link01'><img src={user} alt="" className='img00'  width={35} height={35} /></a>
+                    <a href="#"  className='link01'><img src={localStorage.getItem("img")} alt="" className='img00'  width={35} height={35} /></a>
                     <input type="text" placeholder='add comment'  className='inp00'  value={newitem} onChange={(e)=>setitem(e.target.value)} />
                     <span className='sp01'>
                         {render}
@@ -81,7 +82,7 @@ export default function Company(){
                    {newcom.map((com)=>( <li className='chlis00'>
                         <div className='ratelay'>
                 <span className='sp02'>
-                <a href="#"><img src={user} alt="" className='img01' width={35} height={35} /></a>
+                <a href="#" className='link01'><img src={com.imgpp} alt="" className='img01' width={35} height={35} /></a>
                 <h2 className='h01'>{com.name}</h2>
                 </span> <span><i>  { [...Array(5)].map((star,i)=>{
             const rating = i+1;
