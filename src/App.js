@@ -9,7 +9,7 @@ import './components/explore/firstpage/First.css';
 import Layout from './layout/layout';
 import Company from './pages/companypage';
 import Login from "./components/register/Login";
-
+import Home from './pages/home';
 function App() {
   
   return (
@@ -19,6 +19,7 @@ function App() {
       <Route path='/Login' element={<Login/>}/>
         <Route element={<Layout/>}>
         <Route index element={<Slider/>}/>
+        <Route path='/home' element={<Home/>}/>
         <Route path='/company' element={<Company/>}/>
         </Route>
       </Routes>

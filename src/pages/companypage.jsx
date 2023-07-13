@@ -2,6 +2,7 @@ import './companypage.css';
 import React , { useEffect, useState} from "react";
 import user from '../assets/imgs/profile.png'
 import Flotlist from '../components/rating';
+import Detalis from './compnydetalis';
 import {FaStar}from'react-icons/fa';
 import { addDoc,collection ,onSnapshot,query} from 'firebase/firestore';
 import { db } from '../firebase/firebase';
@@ -54,6 +55,7 @@ export default function Company(){
 
     return (
         <>
+    <Detalis />
         <div className='layout'>
             <div className='ad00'>
             <div className='ad01'>

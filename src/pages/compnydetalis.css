@@ -1,0 +1,141 @@
+.header0001{
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    background-image: url('../assets/ads/106924144-1628532239153-HERO_Pizza_Hut_X_Beyond_Pepperoni.jpg');
+    width: 100%;
+    height: 400px;
+    background-repeat: repeat;
+    background-size: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.header0002{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+.pam00000001{
+    color: #ff4c4c;
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    margin-inline-start: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    }
+.pam00000002{
+    color: white;
+    margin-block-start: 3px;
+    margin-block-end: 10px;
+    margin-inline-start: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    
+    font-family: 'Roboto', sans-serif;
+}
+.pam00000003{
+    width: 310px;
+    color: white;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    
+    font-family: 'Roboto', sans-serif;
+}
+.pam00000004{
+    color: #504C4C;
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    margin-inline-start: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+.pam00000005{
+    border-radius: 16px;
+    height: 232px;
+    width: 310px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 1px 10px -4px;
+}
+.bbbs img{
+    border-radius: 16px 16px 0px 0px !important;
+    cursor: pointer;
+    
+}
+.bbbs{
+    border-radius: 16px;
+}
+.pam00000006{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    flex-direction: column;
+    width: 50%;
+    margin: 4px 10px;
+    height: 100%;
+
+}
+.pam00000008{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    flex-direction: column;
+    width: 50%;
+    margin: 4px 10px;
+    height: 100%;
+}
+.pam00000007{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.ul888888{
+    margin: 20px 20px 11px;
+    list-style-type: none;
+    padding-inline-start: 0;
+    overflow-x: auto;
+    display: flex;
+    gap: 15px;
+    height: 275px;
+}
+li:hover{
+    transition: 0.5s;
+    padding: 0px 10px;
+}
+.ul888888::-webkit-scrollbar{
+    display: none;
+}
+.pam00000009{
+    color: #504C4C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap:nowrap ;
+}
+.pam000000010{
+    color: #928484;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    width: 170px;
+}
+.pam000000011{
+    color: #504C4C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
