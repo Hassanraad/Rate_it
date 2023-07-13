@@ -1,7 +1,10 @@
 import { useNavigate } from 'react-router-dom';
 import Search from'../assets/imgs/search-interface-symbol.png';
+import { useState,useEffect } from 'react';
 
 export default function Navbar(){
+    const [yas,setyas]=useState("no")
+
     const navigate=useNavigate()
     function Move1() {
         navigate('/login')
@@ -9,6 +12,11 @@ export default function Navbar(){
     function Move2() {
         navigate('/')
     }
+    useEffect(()=>{
+        if(localStorage.getItem("name")!==null){
+            setyas("yas")
+        }
+    },[])
     return (
         <div>
         <div className="nav">
@@ -28,8 +36,9 @@ export default function Navbar(){
                 </label>
             </div>
             <div className='div0002'>
-            <button className="btn1" onClick={Move1}>Sign in</button>
-            <button className="btn2" onClick={Move2}>Sign up</button>
+                <img src={localStorage.getItem("img")} alt="" width={40} height={40} className={`imgbcs${yas}`} />
+            <button className={`btn1${yas}`} onClick={Move1}>Sign in</button>
+            <button className={`btn2${yas}`} onClick={Move2}>Sign up</button>
             </div>
         </div>
        </div>

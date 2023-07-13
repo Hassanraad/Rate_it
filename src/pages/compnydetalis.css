@@ -109,7 +109,7 @@
     gap: 15px;
     height: 275px;
 }
-li:hover{
+.lii:hover{
     transition: 0.5s;
     padding: 0px 10px;
 }

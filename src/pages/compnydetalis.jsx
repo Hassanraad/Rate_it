@@ -39,7 +39,7 @@ export default function Detalis() {
         <div className=''>
             <div><p className='pam00000004'>Pizza Hut menu</p></div>
             <ul className='ul888888'>
-                {lis.map((lise)=>(<li>
+                {lis.map((lise)=>(<li className='lii'>
             <div className='pam00000005'>
                 <div className='bbbs'>
                     <img src={lise.img} alt="" width={310} height={160}     border-radius={ "16px 16px 0px 0px !important"} classname="img090"/>

@@ -7,6 +7,9 @@ align-items: center;
     height: 57px;
     background: #FCFCFC;
 }
+.div0002 img{
+    border-radius: 50%;
+}
 .lbl001{
     display: flex;
     align-items: center;
@@ -62,7 +65,7 @@ align-items: center;
     color: #504C4C;
 }
 
-.btn1{ 
+.btn1no{ 
     padding: 5px 10px;
     border: none;
     background-color: #FCFCFC;
@@ -75,7 +78,7 @@ color: #504C4C;
 cursor: pointer;
 }
 
-.btn2{
+.btn2no{
     padding: 5px 10px;
     background-color: #FCFCFC;
 font-family: 'Merriweather';
@@ -86,6 +89,12 @@ border-radius: 6px;
 text-align: center;
 color: #504C4C;
 cursor: pointer;
+}
+.btn1yas,.btn2yas{
+display: none;
+}
+.imgbcsno{
+    display: none;
 }
 .btn1:hover{
     transition: 0.5s ease;
