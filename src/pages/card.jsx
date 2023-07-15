@@ -28,7 +28,7 @@ export default function Card ()  {
 
     <>
             <ul className='ul888888' >
-                {lises.map((lise)=>(<li onClick={Move}>
+                {lises.map((lise)=>(<li onClick={Move} className='lii'>
             <div className='pam00000005'>
                 <div className='bbbs'>
                     <img src={lise.img} alt="" width={310} height={160}     border-radius={ "16px 16px 0px 0px !important"} classname="img090"/>
