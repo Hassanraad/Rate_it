@@ -91,6 +91,7 @@ body {
   background-color: #FA8A7B;
   padding: 10px 35px;
   border: 0px;
+  cursor: pointer;
   border-radius: 8px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -100,6 +101,11 @@ body {
   color: #504C4C;
   
   } 
+  .container2 button:hover{
+    transition: 0.5s;
+    background-color: #fa7462;
+
+  }
   .container2 button text{
   width: 142px;
   height: 28px;
